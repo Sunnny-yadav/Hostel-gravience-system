@@ -184,7 +184,7 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
 
-const dbURI = 'mongodb+srv://iamomkar0007:iakil8G1Wj6wC3pk@student.thvjh.mongodb.net/studentDB?retryWrites=true&w=majority';
+const dbURI = 'ur mongoDB url';
 
 mongoose.connect(dbURI)
     .then(() => {
